@@ -3,7 +3,7 @@
     "type" : "Databricks",
     "fabricId" : "4",
     "jobId" : "jobs/TestJob",
-    "name" : "TestJob",
+    "name" : "ashish-TestJob",
     "schedule" : "0 0 0 1/1 * ? *",
     "jobClusterMode" : {
       "clusterMode" : "Single"
