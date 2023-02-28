@@ -197,11 +197,11 @@ jobs:
   jobs/TestJob2:
     name: ashish-TestJob2
     description: ''
-    fabricUID: 7
+    fabricUID: 1527
     scheduler:
       Databricks: {}
     cloudProvider: null
-    jobSize: Small
+    jobSize: small
     scheduleCron: 0 0 0 1/1 * ? *
     timeout: null
     alerting:
@@ -222,11 +222,11 @@ jobs:
   jobs/TestJob:
     name: ashish-TestJob
     description: Testing job from PBT
-    fabricUID: 4
+    fabricUID: 647
     scheduler:
       Databricks: {}
     cloudProvider: null
-    jobSize: small
+    jobSize: Small
     scheduleCron: 0 0 0 1/1 * ? *
     timeout: null
     alerting:

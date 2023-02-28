@@ -1,15 +1,15 @@
 {
   "metainfo" : {
     "type" : "Databricks",
-    "fabricId" : "4",
+    "fabricId" : "647",
     "jobId" : "jobs/TestJob",
-    "name" : "TestJob",
+    "name" : "ashish-TestJob",
     "schedule" : "0 0 0 1/1 * ? *",
     "jobClusterMode" : {
       "clusterMode" : "Single"
     },
     "enabled" : true,
-    "defaultClusterSize" : "small",
+    "defaultClusterSize" : "Small",
     "alerting" : {
       "emails" : "",
       "onStart" : false,
@@ -28,8 +28,21 @@
       }
     },
     "availableFabrics" : [ {
-      "id" : "4",
+      "id" : "647",
       "name" : "dev",
+      "clusterSizes" : {
+        "default" : "Small",
+        "availableClusterSizes" : [ "Small" ]
+      },
+      "pylibsResolutionMode" : {
+        "PublicCentral" : { }
+      },
+      "scalalibsResolutionMode" : {
+        "PublicCentral" : { }
+      }
+    }, {
+      "id" : "1174",
+      "name" : "demos",
       "clusterSizes" : {
         "default" : "small",
         "availableClusterSizes" : [ "small" ]
@@ -41,8 +54,8 @@
         "PublicCentral" : { }
       }
     }, {
-      "id" : "7",
-      "name" : "dev2-ashish",
+      "id" : "1527",
+      "name" : "ashish-fabric",
       "clusterSizes" : {
         "default" : "small",
         "availableClusterSizes" : [ "small" ]
